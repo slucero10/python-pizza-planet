@@ -9,7 +9,7 @@ class IngredientAdapter:
                 ingredients = []
                 while (line := file.readline().rstrip()):
                     line_arr = line.split(';')
-                    ingredients.append(Ingredient(name=line_arr[0], price=float(line_arr[2])))
+                    ingredients.append(Ingredient(name=line_arr[0], price=float(line_arr[1])))
                 return ingredients
         except Exception as e:
             raise Exception(str(e))

@@ -1,0 +1,10 @@
+pepperoni;2.50
+oregano;0.50
+mozzarella;2
+pepper;1.50
+mushroom;3
+ham;5
+bacon;4
+pineapple;1
+onion;2
+olives;0.75

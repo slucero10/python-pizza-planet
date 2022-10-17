@@ -1,0 +1,6 @@
+Coca-Cola;1.75;2
+Sprite;2;3
+Fanta;0.50;1
+Pepsi;3;4
+water;0.50;0.50
+lemonade;2;2

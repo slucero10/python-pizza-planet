@@ -9,7 +9,7 @@ class SizeAdapter:
                 sizes = []
                 while (line := file.readline().rstrip()):
                     line_arr = line.split(';')
-                    sizes.append(Size(name=line_arr[0], price=float(line_arr[2])))
+                    sizes.append(Size(name=line_arr[0], price=float(line_arr[1])))
                 return sizes
         except Exception as e:
             raise Exception(str(e))

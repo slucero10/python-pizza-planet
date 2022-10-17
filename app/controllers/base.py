@@ -36,3 +36,10 @@ class BaseController:
             return cls.manager.update(_id, new_values), None
         except (SQLAlchemyError, RuntimeError) as ex:
             return None, str(ex)
+
+    @classmethod
+    def create_all(cls, entry) -> Tuple[Any, Optional[str]]:
+        try:
+            return cls.manager.create_all(entry), None
+        except (SQLAlchemyError, RuntimeError) as ex:
+            return None, str(ex)
